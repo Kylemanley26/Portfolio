@@ -37,7 +37,7 @@
 										<ul>
 											<li><a href="https://github.com/Kylemanley26/windows-auto">Windows Automation</a></li>
 											<li><a href="https://github.com/Kylemanley26/violent-python3">Violent Python3 Fork</a></li>
-											<li><a href="https://github.com/Kylemanley26/starwhale">WiP Language Model</a></li>
+											<li><a href="https://github.com/Kylemanley26/starwhale">Language Model Experiment</a></li>
 
 										</ul>
 									</li>
@@ -122,66 +122,63 @@
 									<div id="content">
 										<article class="box post">
 											<header class="style1">
-												<h2>Lorem ipsum dolor sit amet magna egestas morbi bibendum sed malesuada</h2>
-												<p>Tempus feugiat veroeros sed nullam dolore</p>
+												<h2>New to the field, but I'm dedicated and steadily improving.</h2>
+												<p>The first 90 days.</p>
 											</header>
+											<p>Okay, I'm about as entry-level as possible for this field, why should you consider me? Here's an example of my first 90 days at a company.</p>
+											<p>While the basis of the job is standard IT work, I've set myself apart by focusing on security posture improvement. 
+											As an ISC2 member I'm familiar with the standards and frameworks that exist in the field, and have no
+											interest in paying lipservice to security posture.</p>
 											<a href="#" class="image featured">
-												<img src="images/pic01.jpg" alt="" />
+												<img src="images/CIScontrols.jpg" alt="" />
 											</a>
-											<p>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget.
-											odio eleifend. Duis commodo fringilla commodo. Aliquam erat volutpat. Vestibulum
-											facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam
-											tempus euismod. Vestibulum ante ipsum primis in faucibus.</p>
-											<p>Phasellus nisl nisl, varius id porttitor sed, pellentesque ac orci. Pellentesque
-											habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi
-											bibendum justo sed mauris vehicula malesuada aliquam elit imperdiet. Aliquam eu nibh
-											lorem, eget gravida mi. Duis odio diam, luctus et vulputate vitae, vehicula ac dolor.
-											Pellentesque at urna eget tellus lobortis ultrices sed non erat. Donec eget erat non
-											magna volutpat malesuada quis eget eros. Nullam sodales cursus sapien, id consequat
-											leo suscipit ut. Praesent id turpis vitae turpis pretium ultricies. Vestibulum sit
-											amet risus elit.</p>
-											<p>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra
-											ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel. Praesent nec orci
-											eget quam rutrum bibendum. Proin pellentesque diam non ligula commodo tempor. Vivamus
-											eget urna nibh. Curabitur non fringilla nisl. Donec accumsan interdum nisi, quis
-											tincidunt felis sagittis eget. Donec elementum ligula dignissim sem pulvinar non semper
-											odio eleifend. Duis commodo fringilla commodo. Aliquam erat volutpat. Vestibulum
-											facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam
-											tempus euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-											posuere cubilia.</p>
-											<p>Phasellus nisl nisl, varius id porttitor sed, pellentesque ac orci. Pellentesque
-											habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi
-											bibendum justo sed mauris vehicula malesuada aliquam elit imperdiet. Aliquam eu nibh
-											lorem, eget gravida mi. Duis odio diam, luctus et vulputate vitae, vehicula ac dolor.
-											Pellentesque at urna eget tellus lobortis ultrices sed non erat. Donec eget erat non
-											magna volutpat malesuada quis eget eros. Nullam sodales cursus sapien, id consequat
-											leo suscipit ut. Praesent id turpis vitae turpis pretium ultricies. Vestibulum sit
-											amet risus elit.</p>
+											<p>
+												I was inspired by an interview with Tyler Farrar, CISO of Exabeam
+												<span>
+												  <a href="https://www.youtube.com/watch?v=bFMNvhROzqQ" target="_blank" class="news-link">Video here</a>
+												</span>
+												regarding his first 90 days as CISO. I sat there thinking, "I want to make a difference, I could do this."
+											</p>
+											<p>Within the first 90 days of my employment I set out to configure CIS controls (version 8) and get everything compliant to various frameworks. 
+											Eventually, drastically changing the security posture for the better. Leveraging existing tools that had been bought and paid for, yet gone unused, I set to work. 
+											First I implemented MFA org-wide, ensuring client were protected and that we had OTP configured for all of our administrative accounts.
+											</p>
+											<p>Second, I configured geographic drop rules for all Sophos appliances and mail-transfer agents, which provided a degree of seperation from automated attacks.
+											Notably, one particular Barracuda device was under a constant barrage of external threats from various Yandex IPs.</p>
+											<p>Okay, what's next? Log fatigue. Endless IAM alerts and billing renewal notifications all centralized to a single support email. Leveraging SaaS alerts I configured
+											an array of rules using their 'Respond' module, manual review reserved for Conditional access violations and suspicious behaviour.</p>
+											<p>At this point, it seemed prudent to configure BitLocker. Using a combination of Microsoft Endpoint Manager for AAD and powershell for on-premise customers, I rolled out BitLocker
+											to several hundred endpoints over the course of a few weeks with no issues. This granted a modicum of data protection at rest locally.</p>
+											<p>I felt accomplished despite, one final glaring red 'F' taunting me, well I use high-contrast mode, so I assume it was red. Cylance by BlackBerry was our EDR designed to replace Windows Defender.
+											Every month we get an itemized report from a SOC team that had been hired to monitor it, leaving the configuration and tuning of the EDR to our technicians. Great. Script control, memory protection etc.
+											So essentially, EDR isn't configured, but deployed organization wide. I set out to configure a single directory that could still execute script processes, then meticulously responded to every violation in the backlog.
+											After a few months, we were sitting at a comfortable "B" grade, "A" was unfortunately reserved for 100% compliance, which seemed impossible given our existing standard operating procedures and habits.
+											</p>
 										</article>
 										<div class="row gtr-150">
 											<div class="col-6 col-12-small">
-												<section class="box">
-													<header>
-														<h2>Magna pulvinar tempus</h2>
-													</header>
-													<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
-													<p>Rutrum bibendum. Proin pellentesque diam non ligula commodo tempor. Vivamus
-													eget urna nibh. Curabitur non fringilla nisl. Donec accumsan interdum nisi, quis
-													tempus.</p>
-													<a href="#" class="button style1">More</a>
-												</section>
+											  <!-- CIS Controls section -->
+											  <section class="box">
+												<header>
+													<h2>CIS Controls</h2>
+												</header>
+												<a href="https://www.cisecurity.org/controls/v8" class="image featured"><img src="images/CIScontrols.jpg" alt="" /></a>
+												<p>Learn more about CIScontrols by the Center for Internet Security!</p>
+												<a href="https://www.cisecurity.org/controls/v8" class="button style1">More</a>
+											</section>
 											</div>
 											<div class="col-6 col-12-small">
-												<section class="box">
-													<header>
-														<h2>Magna pulvinar tempus</h2>
-													</header>
-													<a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
-													<p>Rutrum bibendum. Proin pellentesque diam non ligula commodo tempor. Vivamus
-													eget urna nibh. Curabitur non fringilla nisl. Donec accumsan interdum nisi, quis
-													tempus.</p>
-													<a href="#" class="button style1">More</a>
-												</section>
+											  <!-- NIST Frameworks section -->
+											  <section class="box">
+												<header>
+													<h2>NIST Frameworks</h2>
+												</header>
+												<a href="https://www.nist.gov/cybersecurity" class="image featured"><img src="images/NIST.jpg" alt="" /></a>
+												<p>Learn more about NIST cybersecurity standards!</p>
+												<a href="https://www.nist.gov/cybersecurity" class="button style1">More</a>
+											</section>
+											</div>
+										  </div>
 											</div>
 										</div>
 									</div>
@@ -191,7 +188,7 @@
 					</div>
 				</section>
 
-			<!-- Highlights -->
+			<!-- Highlights 
 				<section id="highlights" class="wrapper style3">
 					<div class="title">The Endorsements</div>
 					<div class="container">
@@ -229,98 +226,101 @@
 						</div>
 					</div>
 				</section>
-
+				-->
 			<!-- Footer -->
-				<section id="footer" class="wrapper">
-					<div class="title">The Rest Of It</div>
-					<div class="container">
-						<header class="style1">
-							<h2>Ipsum sapien elementum portitor?</h2>
-							<p>
-								Sed turpis tortor, tincidunt sed ornare in metus porttitor mollis nunc in aliquet.<br />
-								Nam pharetra laoreet imperdiet volutpat etiam feugiat.
-							</p>
-						</header>
-						<div class="row">
-							<div class="col-6 col-12-medium">
+			<section id="footer" class="wrapper">
+				<div class="title">Get in touch!</div>
+				<div class="container">
+					<header class="style1">
+						<h2>Did you have a professional inquiry?</h2>
+						<p>
+							I'm not freelancing currently, however, perhaps you need assistance with a technical challenge you're facing.
+						</p>
+					</header>
+					<div class="row">
+						<div class="col-6 col-12-medium">
 
-								<!-- Contact Form -->
-									<section>
-										<form method="post" action="#">
-											<div class="row gtr-50">
-												<div class="col-6 col-12-small">
-													<input type="text" name="name" id="contact-name" placeholder="Name" />
-												</div>
-												<div class="col-6 col-12-small">
-													<input type="text" name="email" id="contact-email" placeholder="Email" />
-												</div>
-												<div class="col-12">
-													<textarea name="message" id="contact-message" placeholder="Message" rows="4"></textarea>
-												</div>
-												<div class="col-12">
-													<ul class="actions">
-														<li><input type="submit" class="style1" value="Send" /></li>
-														<li><input type="reset" class="style2" value="Reset" /></li>
-													</ul>
-												</div>
-											</div>
-										</form>
-									</section>
-
-							</div>
-							<div class="col-6 col-12-medium">
-
-								<!-- Contact -->
-									<section class="feature-list small">
-										<div class="row">
-											<div class="col-6 col-12-small">
-												<section>
-													<h3 class="icon solid fa-home">Mailing Address</h3>
-													<p>
-														Untitled Corp<br />
-														1234 Somewhere Rd<br />
-														Nashville, TN 00000
-													</p>
-												</section>
-											</div>
-											<div class="col-6 col-12-small">
-												<section>
-													<h3 class="icon solid fa-comment">Social</h3>
-													<p>
-														<a href="#">@untitled-corp</a><br />
-														<a href="#">linkedin.com/untitled</a><br />
-														<a href="#">facebook.com/untitled</a>
-													</p>
-												</section>
-											</div>
-											<div class="col-6 col-12-small">
-												<section>
-													<h3 class="icon solid fa-envelope">Email</h3>
-													<p>
-														<a href="#">info@untitled.tld</a>
-													</p>
-												</section>
-											</div>
-											<div class="col-6 col-12-small">
-												<section>
-													<h3 class="icon solid fa-phone">Phone</h3>
-													<p>
-														(000) 555-0000
-													</p>
-												</section>
-											</div>
+							<!-- TEST ME -->
+								<section>
+									<style>
+										.form-field {
+											margin-bottom: 20px;
+										}
+									</style>
+									<form action="https://formspree.io/f/xvojybqy" method="POST">
+										<div class="col-6 col-12-small form-field">
+											<input type="text" name="name" id="contact-name" placeholder="Name" />
 										</div>
-									</section>
+										<div class="col-6 col-12-small form-field">
+											<input type="text" name="_replyto" id="contact-email" placeholder="Email" />
+										</div>
+										<div class="col-12 form-field">
+											<textarea name="message" id="contact-message" placeholder="Message" rows="4"></textarea>
+										</div>
+										<div class="col-12">
+											<ul class="actions">
+												<li><input type="submit" class="style1" value="Send" /></li>
+												<li><input type="reset" class="style2" value="Reset" /></li>
+											</ul>
+										</div>
+									</form>	
+								</section>
 
-							</div>
 						</div>
-						<div id="copyright">
-							<ul>
-								<li>&copy; Untitled.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-							</ul>
+						<div class="col-6 col-12-medium">
+
+							<!-- Contact -->
+								<section class="feature-list small">
+									<div class="row">
+										<div class="col-6 col-12-small">
+											<section>
+												<h3 class="icon solid fa-home">Address</h3>
+												<p>
+													5 Chemin Benard Road<br />
+													St Denis, SK S0K 3W0
+												</p>
+											</section>
+										</div>
+										<div class="col-6 col-12-small">
+											<section>
+												<h3 class="icon solid fa-comment">Social</h3>
+												<p>
+													<a href="www.linkedin.com/in/kylemanleysk">LinkedIn</a><br />
+													<a href="www.instagram.com/kyle_manley">Instagram</a>
+												</p>
+											</section>
+										</div>
+										<div class="col-6 col-12-small">
+											<section>
+												<h3 class="icon solid fa-envelope">Email</h3>
+												<p>
+													<a href="mailto:kylemanley@gmail.com">kylemanley@gmail.com</a>
+												</p>
+											</section>
+										</div>
+										<div class="col-6 col-12-small">
+											<!--
+											<section>
+												<h3 class="icon solid fa-phone">Phone</h3>
+												<p>
+													(000) 555-0000
+												</p>
+											</section>
+										--->
+										</div>
+									</div>
+								<!--</section>
+
 						</div>
 					</div>
-				</section>
+					<div id="copyright">
+						<ul>
+							<li>&copy; Untitled.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</div>
+				</div>
+			</section>
+		-->
 
 		</div>
 
